@@ -57,6 +57,8 @@ button {
   position: relative;
   bottom: 10px;
   cursor: pointer;
+  position: relative;
+  top: 1px;
 }
 /* HEADERN OF THE WEBSITE START */
 
