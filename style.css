@@ -1,0 +1,339 @@
+@import url("https://fonts.googleapis.com/css2?family=Arbutus+Slab&family=Lato:wght@300&family=Raleway:wght@300;500&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body {
+  overflow-x: hidden;
+  background-color: rgb(18, 15, 15);
+}
+/* HEADERN OF THE WEBSITE START */
+nav {
+  width: 100%;
+  height: 100px;
+  line-height: 100px;
+  padding: 0px 100px;
+  background-color: black;
+  display: flex;
+}
+nav ul {
+  position: relative;
+  left: 15%;
+  margin-right: 10px;
+}
+#logo-head {
+  width: 130px;
+  height: 70px;
+  cursor: pointer;
+  position: relative;
+  top: 10px;
+  left: 150px;
+}
+nav li {
+  list-style: none;
+  display: inline-block;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+i {
+  cursor: pointer;
+  color: #fff;
+}
+button {
+  width: 120px;
+  height: 50px;
+  color: #fff;
+  background-color: red;
+  font-size: 13px;
+  border-radius: 25px;
+  border: thin white;
+  position: relative;
+  bottom: 10px;
+  cursor: pointer;
+}
+/* HEADERN OF THE WEBSITE START */
+
+/* THIS IS THE CATEGORY SECTION START */
+#first-head {
+  color: #fff;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 500;
+  font-family: "Butler";
+  padding: 50px 0px;
+}
+.content {
+  display: flex;
+  justify-content: center;
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-bottom: 10px;
+}
+.menu {
+  height: 350px;
+  text-align: center;
+}
+img {
+  width: 80%;
+  height: 100%;
+}
+p {
+  color: #fff;
+  font-family: "Apercu";
+}
+/* THIS IS THE CATEGORY SECTION END */
+
+/* THIS IS THE DISCOVER THE TEST SECTION START */
+.content2 {
+  display: flex;
+  align-items: center;
+  background-color: #1d1a1a;
+  margin-top: 50px;
+}
+.img-cap {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin: 0px auto;
+  width: 100%;
+  justify-content: center;
+  height: 100%;
+  padding: 10px 10px;
+}
+h3 {
+  color: #ed1c24;
+  font-family: "Lato", sans-serif;
+  font-size: 15px;
+  line-height: 20px;
+  margin-bottom: 12px;
+  letter-spacing: 0.48em;
+}
+h1 {
+  color: #fff;
+  font-family: "Arbutus Slab", serif;
+  font-size: 40px;
+}
+.content2 p {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  text-align: justify;
+  font-weight: 400;
+  font-size: 24px;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.03em;
+  word-spacing: 0.3em;
+  margin: 24px 0px 38px;
+}
+#img2 {
+  width: 48%;
+  height: 50%;
+  margin-left: 0px;
+}
+.content2 button {
+  color: #fff;
+  background-color: black;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  font-size: 14px;
+  width: 160px;
+  height: 50px;
+}
+.content2 i {
+  margin-left: 5px;
+  font-size: 20px;
+}
+/* THIS IS THE DISCOVER THE TEST SECTION END */
+/* THIS IS THE  OUR DEALS SECTION START */
+#our-deal {
+  text-align: center;
+  margin-top: 10px;
+}
+.container {
+  display: flex;
+  justify-content: space-around;
+  color: #fff;
+  padding: 30px 200px 10px 200px;
+}
+.content3 img {
+  width: 80%;
+  height: 50%;
+  text-align: center;
+  border-radius: 5px;
+}
+.content3 {
+  text-align: center;
+}
+span {
+  margin-top: 10px;
+}
+.content3 p {
+  color: #ffffffb3;
+  font-size: 13px;
+  margin-top: 10px;
+}
+#Order {
+  border: none;
+  background-color: #ed1c24;
+  font-size: 14px;
+  width: 160px;
+  height: 45px;
+  margin-top: 25px;
+}
+/* THIS IS THE  OUR DEALS SECTION END */
+/* THIS IS THE MENU OF THE WEEK SECTION START*/
+.content4 {
+  display: flex;
+  align-items: center;
+  height: 50%;
+  background-color: #1d1a1a;
+  
+}
+.content4 h2 {
+  color: #fff;
+  font-size: 35px;
+  font-family: "Arbutus Slab", serif;
+}
+.content4 p {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  text-align: justify;
+  font-weight: 400;
+  font-size: 24px;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.03em;
+  word-spacing: 0.2em;
+  margin: 15px 0px 15px;
+}
+.content4 h4 {
+  color: #fff;
+  font-size: 25px;
+  padding-top: 20px;
+  font-family: "apercu";
+}
+.content4 img {
+  width: 45%;
+}
+/* THIS IS THE MENU OF THE WEEK SECTION END */
+/* THIS IS THE SOCIAL FEED SECTION START */
+.content5 {
+  display: flex;
+  justify-content: space-evenly;
+}
+.feed {
+  border-radius: 0px;
+  width: 95%;
+  height: 80%;
+}
+/* THIS IS THE SOCIAL FEED SECTION END */
+/* THIS IS THE FOOTER SECTION START */
+.content6 {
+  display: flex;
+  justify-content: space-around;
+  background-color: #1d1a1a;
+  padding-top: 20px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 20px;
+}
+#logo-footer {
+  width: 130px;
+  height: 70px;
+  margin-bottom: 10px;
+}
+.about {
+  width: 350px;
+}
+.about p {
+  font-style: normal;
+  color: #ffffffb3;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 21px;
+  letter-spacing: 0.03em;
+  margin-bottom: 10px;
+}
+.about span {
+  color: #fff;
+}
+.site-link h5 {
+  color: #fff;
+  font-size: 20px;
+}
+.site-link ul li {
+  list-style: none;
+  color: #ffffffb3;
+  margin-top: 15px;
+  font-size: 15px;
+}
+.contact h5 {
+  color: #fff;
+  font-size: 20px;
+}
+.contact ul li {
+  list-style: none;
+  color: #ffffffb3;
+  margin-top: 15px;
+}
+.follow {
+  position: relative;
+}
+.follow h5 {
+  color: #fff;
+  font-size: 20px;
+}
+.play {
+  background-color: #1d1a1a;
+  width: 180px;
+  margin-top: 10px;
+  position: relative;
+  left: -20px;
+  top: 40px;
+}
+.follow i {
+  color: #ffffff;
+  font-size: 17px;
+}
+.follow a {
+  display: inline-flex;
+  align-items: center;
+  margin-right: 8px;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background: #ed1c24;
+  color: #fff;
+  border-radius: 50px;
+  margin-top: 10px;
+}
+.bottom {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  justify-content: space-around;
+}
+.bottom span {
+  color: #fff;
+  font: 10px;
+}
+.gotpbtn{
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  background:#3e3e3e;
+  bottom: 40px;
+  right: 50px;
+  text-decoration: none;
+  text-align: center;
+  line-height: 30px;
+  font-size: 20px;
+  border-radius: 50px;
+}
+/* THIS IS THE FOOTER SECTION END */
